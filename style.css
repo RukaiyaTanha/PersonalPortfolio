@@ -430,6 +430,14 @@ nav .fa-solid
         z-index: 2;
         transition: right 0.5s;
     }
+    nav ul i.fa-xmark {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 25px;
+        cursor: pointer;
+        color: #fff;
+    }
     nav ul li {
         display: block;
         margin: 20px;
