@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3513fa7cdb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="containner">
+        <nav>
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span> Rukaiya </span> <br> From Bangladesh</h1>
+            <p>Aspiring Software Professional</p>
+        </div>
+    </div>
+</div>
+<!-----------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="project_Images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I’m an aspiring software and web development enthusiast with a strong passion 
+                    for learning, innovation, and creating meaningful digital experiences. My curiosity drives me to stay updated 
+                    with emerging technologies such as artificial intelligence, machine learning. I’m always eager to learn, grow, and take on 
+                    new challenges that help me turn ideas into impactful, user-centered solutions. </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX Design</span><br>
+                                Creating user-friendly, modern, and visually appealing web interfaces focused on great user experiences.
+                            </li>
+                            <li><span>Web Development</span><br>
+                                Building responsive, dynamic, and performance-optimized web applications using modern technologies.
+                            </li>
+                           <li><span>Software Quality & Testing</span><br>
+                            Ensuring software reliability through detailed manual and automated testing to deliver high-quality, bug-free applications.
+                        </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>2024 – Present</span><br>
+                                Gaining practical knowledge through academic projects and self-learning in web development and software quality testing.
+                            </li>
+                            <li>
+                                 <span>2023 – 2025</span><br>
+                                 Completed my university projects focused on full-stack web applications using ASP.Net, HTML, CSS, and JavaScript.
+                                </li>
+                                <li>
+                                    <span>Ongoing</span><br>
+                                    Actively seeking internship opportunities to apply and expand my skills in software development, testing, and UI/UX design.
+                                </li>
+                            </ul>
+                        </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2022 – Present</span><br>
+                                Bachelor of Science (B.Sc.) in Computer Science and Engineering<br>
+                                <strong>American International University – Bangladesh (AIUB)</strong>
+                            </li>
+
+                            <li>
+                                <span>2019 – 2021</span><br>
+                                Higher Secondary School Certificate (HSC)<br><strong>Uttara High School and College</strong>
+                            </li>
+
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------service----------->
+<div id="services"> 
+    <div class="container"> 
+        <h1 class="sub-title">My Services</h1> 
+        <div class="services-list"> 
+            <div> <i class="fa-solid fa-code"></i> 
+                <h2>Web Design</h2> 
+                <p>I specialize in designing and developing modern, responsive, and visually 
+                    appealing websites that provide seamless user experiences. Whether you need 
+                    a personal portfolio, business website, e-commerce platform, or a custom web 
+                    application.</p> 
+            </div> 
+            <div> 
+                <i class="fa-solid fa-crop"></i> 
+                <h2>UI/UX Design</h2> 
+                <p>Creating a visually stunning website is just the beginning—a great user 
+                    experience (UX) is what makes it truly impactful. I specialize in designing 
+                    intuitive, user-friendly, and aesthetically pleasing interfaces that enhance 
+                    engagement and usability.</p> 
+            </div> 
+            <div> 
+                <i class="fa-brands fa-app-store"></i> 
+                <h2>Software Design</h2> 
+                <p>Software design is more than just writing code—it's about creating efficient, 
+                    scalable, and user-friendly solutions that solve real-world problems. I 
+                    specialize in designing robust architectures, intuitive interfaces, and 
+                    high-performance applications tailored to meet specific needs.</p> 
+            </div> 
+        </div> 
+    </div> 
+</div>
+<!-----------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Recent Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="project_Images/p-1.png">
+                <div class="layer">
+                    <h3>Pet Care Management System</h3>
+                    <p>I built a platform to automate pet services, track treatments, 
+                        and maintain health records,reducing manual work and improving service quality.</p>
+                    <a href="https://github.com/RukaiyaTanha/Pet-Care-Management-System"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="project_Images/p-2.png">
+                <div class="layer">
+                    <h3>Smart Class Tracker Performance</h3>
+                    <p>It is an AI based performance tracker which will track a student's performance based on their class and assessment taken by AI 
+                        and give them their performance and improvement feedback.</p>
+                    <a href="https://github.com/SANJINA-HAQUE/Smart-Class-Performance-Tracker/tree/backend-rukaiya"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="project_Images/p-3.png">
+                <div class="layer">
+                    <h3>Restaurant Management</h3>
+                    <p>Developed a system to manage reservations, orders, inventory, and customer feedback.</p>
+                    <a href="https://github.com/RukaiyaTanha/Restaurant-Management"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div> <br> </div>
+    </div>
+</div>
+<!-----------Contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>tanharukiya@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+8801918969361</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rukaiya.tanha.294968"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/RukaiyaTanha"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="project_Images/Rokiya Ibne Tanha - CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copoyright @ Rukaiya. Develoved by Rukaiya <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        { 
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu()
+    {
+        sidemenu.style.right = "0";
+    }
+    function closemenu()
+    {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwZlk4xznrM0u4PYUtgPkBv1gOkoX8DrUdntBzhnv4H6vHoz2oUudo4dy-QGd7Cg_b96w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
