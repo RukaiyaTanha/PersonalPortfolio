@@ -1,6 +1,6 @@
 👋 Hi, I’m Rukaiya Tanha
 
-Full-Stack Web Developer | Tech Enthusiast | Lifelong Learner
+Frontend development | Tech Enthusiast | Aspiring Software Engineer
 
 Welcome to my personal portfolio repository! Here you’ll find projects that showcase my web development journey, from responsive websites to dynamic web applications.
 
