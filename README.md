@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hey there, I’m <span style="color:#ff4081;">Rukaiya Tanha</span> 💻</h1> <h3 align="center">Frontend Developer | Tech Enthusiast | Aspiring Software Engineer</h3> <p align="center"> 🚀 Crafting interactive, elegant, and modern web experiences.<br> Turning ideas into functional reality — one line of code at a time. </p>
+<h1 align="center">👋 Hey there, I’m <span style="color:#ff4081;">Rukaiya Tanha</span> 💻</h1> <h3 align="center">Frontend Developer | Aspiring Software Engineer</h3> <p align="center"> 🚀 Crafting interactive, elegant, and modern web experiences.<br> Turning ideas into functional reality — one line of code at a time. </p>
 🌟 About Me
 
 ✨ I’m passionate about building beautiful and responsive interfaces that not only work seamlessly but also create meaningful digital experiences.
